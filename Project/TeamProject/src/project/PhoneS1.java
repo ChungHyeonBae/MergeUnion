@@ -5,7 +5,7 @@ public class PhoneS1 {
 	public String color;
 	public String condition;
 	
-	public PhoneS1(String model, String color, String condition) {
+	public PhoneS1(String color, String model, String condition) {
 		this.model = model;
 		this.color = color;
 		this.condition = condition;
