@@ -1,19 +1,14 @@
 package project3;
 
+import project.PhoneS2;
 
-public class PhoneS3{
+public class PhoneS3 extends PhoneS2{
 	
 	
-	public String model;
-	public String color;
-	public String condition;
-	public int channel;
 	
-	public PhoneS3(String model,String color,String condition,int channel) {
-		this.model = model;
-		this.color = color;
-		this.condition = condition;
-		this.channel = channel;
+	
+	public PhoneS3(String color, String model, String condition ,String channel) {
+		super(color, model, condition,channel);
 		
 	}
 	

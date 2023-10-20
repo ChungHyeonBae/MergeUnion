@@ -4,7 +4,7 @@ package project3;
 public class PhoneS3Main {
 	public static void main(String[] args) {
 		
-		PhoneS3 sone = new PhoneS3("S3 ", "검정 ", "종료", 0);
+		PhoneS3 sone = new PhoneS3("S3 ", "검정 ", "종료", "정보없음");
 		System.out.println("3세대 폰 (색상 : "+  sone.color+ "모델명 : " + sone.model + " 상태 : " + sone.condition + " 채널 : " + sone.channel + ") 가 지급 되었습니다.");
 	
 		sone.dmbOff();

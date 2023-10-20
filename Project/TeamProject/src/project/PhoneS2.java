@@ -2,7 +2,7 @@ package project;
 
 
 public class PhoneS2 extends PhoneS1{
-	String channel;
+	public String channel;
 	private String dmb = "DMB방송";
 	int dmbnumber = 10;
 	
